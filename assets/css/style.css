@@ -1,0 +1,50 @@
+/* Main style.css for website */
+
+/* Header styling */
+#header{
+    background-size: cover;
+    background-position-y: 40%;
+    color:rgb(107, 107, 107);
+    background-color:rgb(93, 20, 219);
+    position:relative !important;
+}
+
+/* h1 style for city name */
+#header h1{
+    font-size: 400%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
+
+/*citysearch padding and border */
+.citysearch {
+    padding: 1rem;
+    border-radius: 0;
+}
+
+/* City Search Box Width */
+#search-city{
+    width:80%;
+}
+
+
+/* clear storage below list of cities */
+#clear-storage{
+    color:grey;
+    text-decoration: none;
+    font-size:.75em;
+    margin: .5em 0em 0em .5em;
+}
+
+/* Weather card styling */
+.weather-card{
+    width: 9rem;
+    background-color: #5d14db;
+    color: white;
+    text-align: center;
+}
