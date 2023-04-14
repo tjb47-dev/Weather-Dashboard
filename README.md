@@ -18,7 +18,7 @@ To install this project clone this repository to your local system. Open the dir
 
 ## Screenshots
 
-![Weather Dashboard](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Weather Dashboard](https://raw.githubusercontent.com/tjb47-dev/Weather-Dashboard/main/assets/images/weather-dashboard.png)
 
 
 ## License
