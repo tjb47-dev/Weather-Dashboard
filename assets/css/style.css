@@ -4,7 +4,7 @@
 #header{
     background-size: cover;
     background-position-y: 40%;
-    color:rgb(107, 107, 107);
+    color:rgb(255, 255, 255);
     background-color:rgb(93, 20, 219);
     position:relative !important;
 }
@@ -18,13 +18,16 @@
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
-    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
 }
 
 /*citysearch padding and border */
 .citysearch {
     padding: 1rem;
     border-radius: 0;
+}
+
+#search-btn {
+    background-color: #5d14db;
 }
 
 /* City Search Box Width */
@@ -47,4 +50,9 @@
     background-color: #5d14db;
     color: white;
     text-align: center;
+}
+
+.list-group-item.active {
+    background-color: #5d14db;
+    border-color: #5d14db;
 }
